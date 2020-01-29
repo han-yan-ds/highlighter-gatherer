@@ -1,0 +1,24 @@
+{
+  "name": "chrome-extension-exercise",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/han-yan-ds/chrome-extension-exercise.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/han-yan-ds/chrome-extension-exercise/issues"
+  },
+  "homepage": "https://github.com/han-yan-ds/chrome-extension-exercise#readme",
+  "dependencies": {
+    "@types/jest": "^25.1.0",
+    "jest": "^25.1.0",
+    "jquery": "^3.4.1"
+  }
+}

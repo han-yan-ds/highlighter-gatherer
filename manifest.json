@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+
+  "name": "Chrome Extension Exercise",
+  "version": "0.1",
+
+  "description": "Chrome extension exercise",
+  "icons": {
+    "128": "mcf1_128.png",
+    "48": "mcf1_48.png",
+    "16": "mcf1_16.png"
+  },
+  "browser_action": {
+    "default_icon": "mcf1_16.png"
+  },
+
+  "permissions": [
+    "storage",
+    "notifications"
+  ],
+
+  "background": {
+    "scripts": ["./src/popup.js"]
+  }
+
+}
