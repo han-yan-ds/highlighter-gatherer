@@ -6,12 +6,12 @@
 
   "description": "Chrome extension exercise",
   "icons": {
-    "128": "mcf1_128.png",
-    "48": "mcf1_48.png",
-    "16": "mcf1_16.png"
+    "128": "./images/highlighter_128.png",
+    "48": "./images/highlighter_48.png",
+    "16": "./images/highlighter_16.png"
   },
   "browser_action": {
-    "default_icon": "mcf1_16.png"
+    "default_icon": "./images/highlighter_16.png"
   },
 
   "permissions": [
