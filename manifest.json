@@ -20,6 +20,10 @@
   ],
   "background": {
     "scripts": ["./dist/buttonClick.js"]
-  }
+  },
+  "content_scripts": [{
+    "css": ["styles.css"],
+    "matches": ["<all_urls>"]
+  }]
 
 }
