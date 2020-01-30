@@ -15,12 +15,15 @@
   },
 
   "permissions": [
-    "storage",
-    "notifications"
+    "tabs",
+    "activeTab"
   ],
-
   "background": {
-    "scripts": ["./src/popup.js"]
-  }
+    "scripts": ["./dist/popup.js"]
+  },
+  "content_scripts": [{
+    "js": ["./dist/popup.js"],
+    "matches": ["<all_urls>"]
+  }]
 
 }
