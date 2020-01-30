@@ -1,10 +1,8 @@
-/* Just trying to make this CSS file work before trying to make SASS work */
-
 #highlighter-extension-form-button {
-  z-index: 9999;
+  z-index: 2147483647;
   min-width: 48px;
   min-height: 48px;
-  background-color: red;
+  background-color: purple;
 
   position: fixed;
   bottom: 8vh;
