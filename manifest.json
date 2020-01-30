@@ -1,0 +1,29 @@
+{
+  "manifest_version": 2,
+
+  "name": "Highlighter Gatherer",
+  "version": "0.1",
+
+  "description": "Highlighter Gatherer",
+  "icons": {
+    "128": "./images/highlighter_128.png",
+    "48": "./images/highlighter_48.png",
+    "16": "./images/highlighter_16.png"
+  },
+  "browser_action": {
+    "default_icon": "./images/highlighter_16.png"
+  },
+
+  "permissions": [
+    "tabs",
+    "activeTab"
+  ],
+  "background": {
+    "scripts": ["./dist/buttonClick.js"]
+  },
+  "content_scripts": [{
+    "css": ["styles.css"],
+    "matches": ["<all_urls>"]
+  }]
+
+}
