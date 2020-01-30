@@ -19,11 +19,7 @@
     "activeTab"
   ],
   "background": {
-    "scripts": ["./dist/popup.js"]
-  },
-  "content_scripts": [{
-    "js": ["./dist/popup.js"],
-    "matches": ["<all_urls>"]
-  }]
+    "scripts": ["./dist/buttonClick.js"]
+  }
 
 }
