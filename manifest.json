@@ -22,7 +22,7 @@
     "scripts": ["./dist/buttonClick.js"]
   },
   "content_scripts": [{
-    "css": ["styles.css"],
+    "css": ["styles.scss"],
     "matches": ["<all_urls>"]
   }]
 
