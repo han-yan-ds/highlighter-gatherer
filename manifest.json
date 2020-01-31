@@ -19,10 +19,11 @@
     "activeTab"
   ],
   "background": {
-    "scripts": ["./dist/buttonClick.js"]
+    "scripts": ["./src/background/buttonClick.js"]
   },
   "content_scripts": [{
-    "css": ["styles.scss"],
+    "js": ["./src/page/floatingButton.js"],
+    "css": ["./styles.css"],
     "matches": ["<all_urls>"]
   }]
 
