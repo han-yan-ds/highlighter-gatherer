@@ -18,10 +18,10 @@
     "activeTab"
   ],
   "background": {
-    "scripts": ["./src/background/buttonClick.js"]
+    "scripts": ["./dist/background/buttonClick.js"]
   },
   "content_scripts": [{
-    "js": ["./src/page/floatingButton.js"],
+    "js": ["./dist/page/floatingButton.js"],
     "css": ["./styles.css"],
     "matches": ["<all_urls>"]
   }]

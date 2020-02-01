@@ -3,10 +3,13 @@
  * BUT it hides the button/form first
  */
 
-const body = document.getElementsByTagName('body')[0];
-const mainDiv = document.createElement('div');
-const formDiv = document.createElement('div');
-const openFormButton = document.createElement('button');
+// import renderFormTemplate from './showForm';
+
+const body = document.getElementsByTagName('body')[0] as HTMLBodyElement;
+const mainDiv = document.createElement('div') as HTMLDivElement;
+const formDiv = document.createElement('div') as HTMLDivElement;
+const openFormButton = document.createElement('button') as HTMLButtonElement;
+
 
 mainDiv.classList.add('highlighter-extension-hide');
 mainDiv.id = "highlighter-extension-div";
@@ -15,8 +18,8 @@ openFormButton.id = "highlighter-extension-button";
 
 openFormButton.addEventListener('click', () => {
   console.log("HELLO WORLD");
-  // REPLACE WITH CODE THAT SHOWS/HIDES FORM
-})
+  // renderFormTemplate('highlighter-extension-form-div');
+});
 
 mainDiv.insertAdjacentElement('afterbegin', openFormButton);
 mainDiv.insertAdjacentElement('afterbegin', formDiv);
