@@ -5,7 +5,7 @@
  * However, this script is run on pages, not in the background
  */
 
-var mainDiV = document.getElementById("highlighter-extension-form-div");
+var mainDiV = document.getElementById("highlighter-extension-div");
 
 if (mainDiV.classList.contains('highlighter-extension-hide')) {
   mainDiV.classList.remove('highlighter-extension-hide');
