@@ -4,14 +4,20 @@
 
 /* NOTE: For some reason, this button isn't responding 
    to clicks in certain pages.  It seems like a z-index issue */
+#highlighter-extension-form-div {
+  position: fixed;
+  z-index: 2147483647;
+  bottom: 8vh;
+  right: 6vw;
+
+  min-width: 55px;
+  min-height: 55px;
+  background-color: green;
+}
+
 #highlighter-extension-form-button {
   min-width: 48px;
   min-height: 48px;
   background-color: red;
   border-radius: 8px;
-
-  position: fixed;
-  z-index: 2147483647;
-  bottom: 8vh;
-  right: 6vw;
 }
