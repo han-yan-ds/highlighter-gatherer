@@ -3,7 +3,7 @@
  * BUT it hides the button/form first
  */
 
-// import renderFormTemplate from './showForm';
+// import { renderFormTemplate } from './showForm';
 
 const body = document.getElementsByTagName('body')[0] as HTMLBodyElement;
 const mainDiv = document.createElement('div') as HTMLDivElement;

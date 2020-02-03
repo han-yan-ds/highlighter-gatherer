@@ -29,6 +29,6 @@ function formTemplate (): TemplateResult {
     </form>`;
 }
 
-  export default function renderFormTemplate(parentId: string) {
-    render(formTemplate(), document.getElementById(parentId)!);
-  }
+export function renderFormTemplate(parentId: string) {
+  render(formTemplate(), document.getElementById(parentId)!);
+}
